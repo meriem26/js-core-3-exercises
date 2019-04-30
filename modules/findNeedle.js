@@ -1,3 +1,5 @@
 function findNeedle(haystack) {
-  return haystack.indexOf('needle');
+  return haystack.indexOf("needle");
 }
+
+module.exports = findNeedle;
